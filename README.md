@@ -14,3 +14,5 @@ Core functionality of the system:
 7. Use red to color arithmetic and Boolean operators, e.g., “+”, “-“, “/”, “||”.
 8. Use green for strings.
 
+Medium report - https://medium.com/@dwija42/reflections-on-our-software-design-project-d3c73efddce5?sk=7060b47ac4b45eda0b1ab9ed3abfcebe
+YouTube video - https://youtu.be/YzuShfm2W2s
