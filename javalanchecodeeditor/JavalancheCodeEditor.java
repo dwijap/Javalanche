@@ -234,28 +234,6 @@ public class JavalancheCodeEditor extends JFrame implements ActionListener {
                 saveFile(currFile);
                 JOptionPane.showMessageDialog(screen, "Project " + currDirectory.getName() + " saved!");
             }
-            /*
-            String txt = text.getText();
-            JFileChooser n = new JFileChooser(".");
-            n.setDialogTitle("Save");
-            int retval = n.showSaveDialog(null);
-            if (retval == JFileChooser.APPROVE_OPTION){
-                File file = n.getSelectedFile();
-                if (file == null){
-                    return;
-                }
-                if(!file.getName().toLowerCase().endsWith("txt")){
-                    file = new File(file.getParentFile(), file.getName() + ".txt");
-                }
-                try {
-                    text.write(new OutputStreamWriter(new FileOutputStream(file) , "utf-8"));
-                } catch (FileNotFoundException ex) {
-                    ex.printStackTrace();
-                } catch (IOException ex) {
-                    ex.printStackTrace();
-                }
-            }
-            */
         }
         else if (s.equals("Open File")) {
             int k = 0;
